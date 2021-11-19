@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center">
+        <Button
+            android:id="@+id/robotsReadingsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/rounded_corner_button"
+            android:text="Robots Readings"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:onClick="robotsReadingsButton_Click"
+            android:layout_marginTop="34dp"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/getReadingsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/rounded_corner_button"
+            android:text="Get New Readings"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:onClick="getRobotReadingsButton_Click"
+            android:layout_marginTop="34dp"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/groundRobotControlButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/rounded_corner_button"
+            android:text="Ground Robot Control"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:onClick="groundRobotControlButton_Click"
+            android:layout_marginTop="34dp"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/profileButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/rounded_corner_button"
+            android:text="Profile"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:onClick="profileButton_Click"
+            android:layout_marginTop="34dp"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+</RelativeLayout>

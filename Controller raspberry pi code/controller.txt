@@ -1,0 +1,16 @@
+from server pi import *
+from pi to arudino import * 
+from RobotReadingandMovement import *
+from Takingpictureanduploading import * 
+
+
+
+def Createconn()
+
+def ReadingHumidity()
+
+def ReadingTemp()
+
+def RobotMovement()
+
+def Takepic()

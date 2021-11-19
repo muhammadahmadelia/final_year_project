@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorButtons">#680C86</color>
+    <color name="colorTaskBar">#B58A3F</color>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "990223037227",
+    "firebase_url": "https://robotic-swarm.firebaseio.com",
+    "project_id": "robotic-swarm",
+    "storage_bucket": "robotic-swarm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:990223037227:android:3f1cf36b85949824d08b6e",
+        "android_client_info": {
+          "package_name": "com.example.userapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "990223037227-1irbhc5381akdo6ls368uv7jrchlnk4f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.userapp",
+            "certificate_hash": "a7424edff4cac6c969ccb39b7aaadbec0a2a14fa"
+          }
+        },
+        {
+          "client_id": "990223037227-sk1jjctksq73lkcn8esd8rmr5f5tessi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKEtqvNoTo_nXZ4G6YHOgAUu1TUFcDFkQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "990223037227-sk1jjctksq73lkcn8esd8rmr5f5tessi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

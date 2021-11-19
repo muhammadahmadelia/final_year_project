@@ -1,0 +1,10 @@
+import socket
+
+HOST = '192.168.0.12'  
+PORT = 65432       
+
+socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect((HOST, PORT))
+s.sendall(b'hi i am connected')
+data = s.recv(1024)
+print('Received', repr(data))
